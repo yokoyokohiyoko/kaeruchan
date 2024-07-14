@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.monster {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+
+.monster:hover {
+  transform: scale(1.1);
+}
+
+#startButton {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
